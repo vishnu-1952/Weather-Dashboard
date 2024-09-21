@@ -3,12 +3,11 @@ Weather Dashboard with TypeScript and Material-UI
 This project is a configurable weather dashboard built using TypeScript, React, and Material-UI (MUI). It allows users to add and remove weather widgets, switch between Celsius and Fahrenheit, and persist the dashboard's state between sessions using localStorage.
 
 Features:
-Weather Widgets: Display current weather for dynamic locations.
-Static Location: New York
-Add/Remove Widgets: Easily add or remove widgets to customize the dashboard.
-Temperature Switch: Switch between Celsius and Fahrenheit for all widgets using React Context.
-State Persistence: The dashboard saves its state (widgets and temperature settings) in localStorage.
-Responsive Design: The dashboard is fully responsive and adapts to different screen sizes.
+Weather Widgets: Display current weather for "New York" location,
+Add/Remove Widgets: Easily add or remove widgets to customize the dashboard,
+Temperature Switch: Switch between Celsius and Fahrenheit for all widgets using React Context,
+State Persistence: The dashboard saves its state (widgets and temperature settings) in localStorage,
+Responsive Design: The dashboard is fully responsive and adapts to different screen sizes,
 
 Prerequisites:
 Make sure you have the following installed on your machine:
@@ -24,12 +23,10 @@ Installation:
 
 Running the Project
 To start the development server:
-
 Using npm: npm start Or using yarn: yarn start
 
 Testing
 To run the tests (if you write them), you can use the following command:
-
 Using npm: npm test Or using yarn: yarn test
 
 Hosted link: https://weather-dashboard-lime.vercel.app/
