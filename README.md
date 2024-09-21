@@ -17,7 +17,7 @@ Prerequisites to make sure you have the following installed on your machine:
 
 Installation:
 
-1. Clone the Repository: git clone https://github.com/yourusername/weather-dashboard.git
+1. Clone the Repository: git clone https://github.com/yourusername/Weather-Dashboard.git
 2. Navigate to the Project Directory: cd weather-dashboard
 3. Install Dependencies: npm install Or using yarn: yarn install
 
