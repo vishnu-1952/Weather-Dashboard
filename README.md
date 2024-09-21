@@ -32,4 +32,4 @@ To run the tests (if you write them), you can use the following command:
 
 Using npm: npm test Or using yarn: yarn test
 
-Hosted site: https://weather-dashboard-lime.vercel.app/
+Hosted link: https://weather-dashboard-lime.vercel.app/
