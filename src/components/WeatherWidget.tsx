@@ -3,6 +3,7 @@ import { Card, CardContent, Typography, IconButton, Box } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import { useTemperatureUnit } from '../context/TemperatureUnitContext'; // Use the context
 import axios from 'axios';
+import API_KEY from '../config/config';
 
 interface WeatherWidgetProps {
   location: string;
@@ -27,9 +28,8 @@ const WeatherWidget: React.FC<WeatherWidgetProps> = ({
   useEffect(() => {
     const fetchWeatherData = async () => {
       try {
-        const apiKey = '29ca36fcf8956003fb20e161a521a6bb';
         const response = await axios.get(
-          `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apiKey}`
+          `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${API_KEY}`
         );
 
         const data = response.data;
