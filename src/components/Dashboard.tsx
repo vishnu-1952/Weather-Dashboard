@@ -26,7 +26,7 @@ const Dashboard: React.FC = () => {
       <Box display='flex' justifyContent='space-between' alignItems='center'>
         <Typography variant='h5'>Weather Dashboard</Typography>
         <Box display='flex' alignItems='center'>
-          <TemperatureSwitch />
+          {widgets.length > 0 && <TemperatureSwitch />}
           <Button
             variant='contained'
             onClick={addWidget}
